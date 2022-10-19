@@ -35,6 +35,7 @@ ajouter.addEventListener("click", function (e) {
     // modifier.parentElement.
     // })
 
+    //Checkbox barrer//
     let cocher = document.createElement('input')
       cocher.setAttribute("type","checkbox")
       cocher.classList.add("COCHER")

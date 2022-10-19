@@ -113,5 +113,36 @@ opacity:0;
 .COCHER:hover{cursor:grab;}
 
 
+
+/* ! RESPONSIVE */
+
+@media only screen and (min-width: 319px) and (max-width:780px) {
+
+
+.gauche,.droite{width:0%;}
+.corps{width:100%;
+left:0%;
+background-color: black;}
+.cadre{background-color:lightslategray ;}
+#ajouter{width:35%;}
+
+.result{text-align:left;
+background-color:lightslategray;}
+
+.SUP{right:0%;
+width:10%;
+border-color:black;}
+
+.MOD{right:12%;
+width:30%;
+border-color:black;}
+
+
+
+
+
+
+
+}
   
 
