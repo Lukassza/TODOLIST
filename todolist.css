@@ -1,13 +1,14 @@
 body {
-  font-family: cursive;
+  font-family: cursive,sans-serif;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color:lightslategray;
 }
 
 h1{font-size:220%;
+  text-decoration: underline;
 }
 
 .gauche {
@@ -27,7 +28,7 @@ h1{font-size:220%;
 }
 
 .bas {
-  background-color: rgb(0, 0, 117);
+  background-color: rgb(0, 0, 0);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -44,14 +45,11 @@ h1{font-size:220%;
 }
 
 .cadre {
-  background-color: rgb(3, 3, 97);
+  background-color: rgb(0, 0, 0);
   position: relative;
 }
 
 .result {width:100%;
-  margin-left: 3%;
-  margin-top: 3%;
-  position: absolute;
   color: aliceblue;
   background-color: rgb(0, 0, 0);
 }
@@ -61,5 +59,44 @@ h1{font-size:220%;
   color: aliceblue;
 }
 
+label{font-size: 120%;}
+
+#ajouter{font-size: 120%;
+width: 20%;
+background-color: black;
+color: aliceblue;
+cursor: pointer;
+}
 #elemlist{width:30%;
-height:50%;}
+font-size: 120%;}
+
+.SUP{width:5%;
+background-color:black;
+color:lightslategray;
+font-weight:bolder;
+padding:7px;
+position:absolute;
+right:1%;
+margin-top:0.2%;
+}
+
+.SUP:hover{background-color:lightslategray;
+color:black;
+cursor: pointer;}
+
+.MOD:hover{background-color:black;
+  color:darkslategrey;
+cursor: pointer;}
+
+.result:last-child{padding-bottom:1px;}
+
+.MOD{width:9%;
+  background-color:lightslategray;
+  color:black;
+  font-weight:bolder;
+  padding:7px;
+  position:absolute;
+  right:8%;
+  margin-top:0.2%;
+  }
+
