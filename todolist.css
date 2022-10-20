@@ -7,11 +7,6 @@ body {
   background-color:lightslategray;
 }
 
-h1{font-size:220%;
-  text-decoration: underline;
-  text-decoration: line-through;
-}
-
 .gauche {
   position: absolute;
   left: 0;
@@ -48,12 +43,13 @@ h1{font-size:220%;
 .cadre {
   background-color: rgb(0, 0, 0);
   position: relative;
+  padding-bottom:4px;
 }
 
-.result {width:100%;
+.result {width:99.4%;
   color: aliceblue;
-  background-color: rgb(0, 0, 0);
-  font-size:120%;
+  background-color: lightslategray;
+  font-size:140%;  
 }
 
 .f5 {
@@ -93,6 +89,10 @@ cursor: pointer;}
 
 .result:last-child{padding-bottom:1px;}
 
+.LIS{border:solid;
+background-color: black;
+padding-bottom:4px;}
+
 .MOD{width:9%;
   background-color:lightslategray;
   color:black;
@@ -110,7 +110,75 @@ height:40px;
 opacity:0;
 }
 
-.COCHER:hover{cursor:grab;}
+.VAL{position:absolute;
+  right:20%;
+  margin-top:4px;
+  font-size:80%;
+background-color:rgb(0, 0, 0);
+color:greenyellow;}
+
+.VAL:hover{background-color:greenyellow;
+color:black;}
+.COCHER:hover{cursor:grab;
+}
+
+.result p:hover{color:lightseagreen}
+
+h1 span{font-size:220%;
+  background-color:rgb(0, 0, 0);
+  color:rgb(0, 0, 0);
+  display:inline-block;
+}
+
+/* ! Anim Title */
+
+h1 span{animation:move 4s ease-in-out infinite}
+
+
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 1px 1px 25px rgba(255, 255, 255, 1);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+
+
+
+
+h1 span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+h1 span:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: 2s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: 2.4s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: 2.8s;
+}
+
 
 
 
@@ -120,22 +188,39 @@ opacity:0;
 
 
 .gauche,.droite{width:0%;}
+
 .corps{width:100%;
 left:0%;
-background-color: black;}
-.cadre{background-color:lightslategray ;}
+background-color: lightslategray;}
+
+.cadre{background-color:black ;
+  margin-top:-8%;
+}
+
+.result{width:100%;}
+
 #ajouter{width:35%;}
 
 .result{text-align:left;
-background-color:lightslategray;}
+background-color:lightslategray;
+font-size:100%}
 
 .SUP{right:0%;
 width:10%;
-border-color:black;}
+border-color:black;
+height:5%;
+padding:0%;
+right:1%;
+}
 
 .MOD{right:12%;
-width:30%;
-border-color:black;}
+width:25%;
+border-color:black;
+height: 5%;
+padding:0%;
+}
+
+.COCHER{width:55%;}
 
 
 
