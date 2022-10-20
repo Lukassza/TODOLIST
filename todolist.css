@@ -72,6 +72,7 @@ width: 20%;
 background-color: black;
 color: aliceblue;
 cursor: pointer;
+-webkit-text-stroke: 0.1px #03a9f4;
 }
 #elemlist{width:30%;
 font-size: 120%;}
@@ -138,7 +139,7 @@ h1 span{font-size:220%;
   display:inline-block;
 }
 
-/* ! Anim Title */
+/* ! Animations */
 
 
 .result p{
@@ -167,7 +168,7 @@ text-shadow: 0 0 5px #0192a5, 0 0 15px #0192a5, 0 0 20px #0192a5, 0 0 40px #0192
 
 
 
-
+/*TITRE==============================================================================*/
 
 
 h1 span{animation:move 4s ease-in-out infinite, glow 1.5s linear infinite; }
@@ -225,6 +226,28 @@ h1 span:nth-child(8) {
     filter: hue-rotate(360deg);
   }
 }
+
+
+/* AJOUTER*/
+#ajouter:hover{animation:big 3s ease-in-out ;}
+@keyframes big {
+  
+  
+  25% {
+    color: rgb(255, 255, 255);
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  
+}
+
 
 
 /* ! RESPONSIVE */
