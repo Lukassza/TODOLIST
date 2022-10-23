@@ -146,7 +146,7 @@ h1 span{font-size:220%;
 	background-image: url(https://media.giphy.com/media/MDXomrcGshGso/giphy.gif);
     background-size: cover;
 	color: transparent;
-    background-clip:border-box
+    background-clip:border-box;
     -moz-background-clip: text;
 	-webkit-background-clip: text;}
 
