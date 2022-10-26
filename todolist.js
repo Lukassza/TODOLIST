@@ -46,7 +46,7 @@ ajouter.addEventListener("click", function (e) {
     let modifier = document.createElement("Button");
     modifier.innerHTML = "Modifier";
     modifier.classList.add("MOD");
-    liste.appendChild(modifier);
+    result.appendChild(modifier);
 
     modifier.addEventListener("click", function () {
       let input = document.createElement("input");
